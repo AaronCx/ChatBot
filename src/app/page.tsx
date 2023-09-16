@@ -1,8 +1,8 @@
 'use client'
 
-import { Dialog } from '../../../ChatBot/node_modules/@headlessui/react/dist'
+import { Dialog } from '@headlessui/react'
 import { Menu, X } from 'lucide-react'
-import { useState } from '../../../ChatBot/node_modules/@types/react'
+import { useState } from 'react'
 
 const navigation = [
   { name: 'example1', href: '#' },
